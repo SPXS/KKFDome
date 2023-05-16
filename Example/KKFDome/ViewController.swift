@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import KKFDome
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        Logger(true).logkf("你好啊，旅行者")
+        
     }
 
     override func didReceiveMemoryWarning() {
